@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Progress Tracker</string>
+    <string name="text_admin_login">Login as Admin</string>
+    <string name="text_dev_login">Login as Developer</string>
+    <string name="desc_dev_login_image">Developer Icon</string>
+    <string name="desc_admin_login_image">Admin Icon</string>
+    <string name="text_admin_login_button">Login</string>
+    <string name="text_dev_login_button">Login</string>
+    <string name="hint_login_email">Email Id</string>
+    <string name="hint_login_password">Password</string>
+    <string name="title_project_admin">Projects</string>
+    <string name="add_project_button_admin">Add Project</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur adipiscing elit duis tristique sollicitudin nibh. Euismod elementum nisi quis eleifend. Fames ac turpis egestas maecenas pharetra convallis. Vel orci porta non pulvinar neque laoreet suspendisse. Mattis pellentesque id nibh tortor id aliquet lectus proin. Cursus metus aliquam eleifend mi in nulla posuere. Mattis nunc sed blandit libero volutpat sed cras. Quis ipsum suspendisse ultrices gravida dictum fusce ut placerat. Sit amet facilisis magna etiam tempor orci eu lobortis. Ullamcorper malesuada proin libero nunc consequat interdum. Nulla malesuada pellentesque elit eget gravida cum. Turpis massa tincidunt dui ut ornare lectus sit amet. Pellentesque nec nam aliquam sem et tortor consequat id. Turpis egestas sed tempus urna. Magna ac placerat vestibulum lectus mauris ultrices. Quis blandit turpis cursus in hac habitasse platea dictumst quisque. Congue quisque egestas diam in arcu cursus euismod quis. In iaculis nunc sed augue lacus viverra vitae congue. Venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam. In fermentum posuere urna nec. Interdum consectetur libero id faucibus nisl tincidunt eget. Aenean et tortor at risus viverra adipiscing. A cras semper auctor neque vitae tempus. Ullamcorper malesuada proin libero nunc. Vel risus commodo viverra maecenas accumsan.</string>
+
+
+</resources>

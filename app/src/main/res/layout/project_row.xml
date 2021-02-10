@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="5dp"
+    android:id="@+id/project_admin_cardView"
+    android:clickable="true"
+    android:background="@color/colorBackgroundLight"
+    app:cardBackgroundColor="@color/colorBackgroundLight"
+    android:theme="@style/MyRipple"
+    app:cardPreventCornerOverlap="false"
+    app:cardUseCompatPadding="false">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--    <ImageView-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="0dp"-->
+        <!--        app:layout_constraintTop_toTopOf="parent"-->
+        <!--        app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--        app:layout_constraintRight_toRightOf="parent"-->
+        <!--        android:id="@+id/blog_image"-->
+        <!--        android:padding="0dp"-->
+        <!--        android:layout_margin="0dp"-->
+        <!--        android:adjustViewBounds="true"-->
+        <!--        android:scaleType="fitXY"-->
+        <!--        />-->
+
+
+        <ImageView
+            android:id="@+id/imageview_project_image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_toStartOf="@+id/textview_project_name"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_project" />
+
+        <TextView
+            android:id="@+id/textview_project_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:text="TextView"
+            android:textColor="@color/primary"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/textview_project_description"
+            app:layout_constraintStart_toEndOf="@+id/imageview_project_image"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textview_project_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:text="TextView"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageview_project_image"
+            app:layout_constraintTop_toBottomOf="@+id/textview_project_name" />
+
+        <TextView
+            android:id="@+id/textview_project_priority"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            app:layout_constraintBottom_toTopOf="@+id/textview_project_devs"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.826"
+            app:layout_constraintStart_toEndOf="@+id/textview_project_name"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textview_project_devs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.826"
+            app:layout_constraintStart_toEndOf="@+id/textview_project_description"
+            app:layout_constraintTop_toBottomOf="@+id/textview_project_priority" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>
+
+
+
+
+
+<!--    <?xml version="1.0" encoding="utf-8"?>-->
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--xmlns:tools="http://schemas.android.com/tools"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="80dp">-->
+
+<!--<ImageView-->
+<!--    android:id="@+id/imageView"-->
+<!--    android:layout_width="65dp"-->
+<!--    android:layout_height="65dp"-->
+<!--    android:layout_marginStart="8dp"-->
+<!--    android:layout_marginTop="8dp"-->
+<!--    app:layout_constraintStart_toStartOf="parent"-->
+<!--    app:layout_constraintTop_toTopOf="parent"-->
+<!--    app:srcCompat="@android:drawable/btn_star_big_on" />-->
+
+<!--<TextView-->
+<!--    android:id="@+id/textView"-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_marginStart="8dp"-->
+<!--    android:textColor="?android:colorForeground"-->
+<!--    android:text="Project Name"-->
+<!--    android:transitionName="project_name"-->
+<!--    app:layout_constraintBottom_toTopOf="@+id/textView2"-->
+<!--    app:layout_constraintStart_toEndOf="@+id/imageView"-->
+<!--    app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--<TextView-->
+<!--    android:id="@+id/textView2"-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_marginStart="8dp"-->
+<!--    android:text="5 people"-->
+<!--    app:layout_constraintBottom_toBottomOf="parent"-->
+<!--    app:layout_constraintStart_toEndOf="@+id/imageView"-->
+<!--    app:layout_constraintTop_toBottomOf="@+id/textView" />-->
+
+<!--<TextView-->
+<!--    android:id="@+id/textView3"-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_marginEnd="16dp"-->
+<!--    android:text="84%"-->
+<!--    app:layout_constraintBottom_toBottomOf="parent"-->
+<!--    app:layout_constraintEnd_toEndOf="parent"-->
+<!--    app:layout_constraintTop_toTopOf="parent" />-->
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->

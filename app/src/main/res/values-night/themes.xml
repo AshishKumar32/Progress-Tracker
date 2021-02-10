@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ProgressTracker" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/colorBackground</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/colorBackgroundDark</item>
+    </style>
+    <style name="textViewStyle">
+        <item name="android:background">@drawable/rounded_textbox_dark</item>
+    </style>
+    <style name="user_type_selection_image">
+        <item name="tint">@color/white</item>
+    </style>
+    <style name="button_fill">
+        <item name="android:background">@drawable/button_background_fill_dark</item>
+    </style>
+    <style name="button_outline">
+        <item name="android:background">@drawable/button_background_dark</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+    <style name="light_white_dark_black">
+        <item name="color">@color/colorBackground</item>
+    </style>
+    <style name="controls">
+
+        <item name="android:tint">@color/white</item>
+    </style>
+</resources>

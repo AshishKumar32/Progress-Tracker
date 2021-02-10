@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loginreg.Dev_login_activity">
+
+    <ImageView
+        style="@style/user_type_selection_image"
+        android:id="@+id/image_dev_login"
+        android:contentDescription="@string/desc_dev_login_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="32dp"
+        android:transitionName="dev_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon_dev" />
+
+    <EditText
+        style="@style/textViewStyle"
+        android:id="@+id/email_dev_login"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:hint="@string/hint_login_email"
+        android:padding="10dp"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_dev_login" />
+
+    <Button
+
+        android:id="@+id/button_dev_login"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_background_fill"
+        android:padding="0dp"
+        android:text="@string/text_dev_login_button"
+        android:textColor="#ffffff"
+        android:textSize="12sp"
+        app:backgroundTint="#007aff"
+        app:layout_constraintEnd_toEndOf="@+id/password_dev_login"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/password_dev_login"
+        app:layout_constraintTop_toBottomOf="@+id/password_dev_login" />
+
+    <EditText
+        style="@style/textViewStyle"
+        android:id="@+id/password_dev_login"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+
+        android:hint="@string/hint_login_password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/email_dev_login"
+        app:layout_constraintStart_toStartOf="@+id/email_dev_login"
+        app:layout_constraintTop_toBottomOf="@+id/email_dev_login" />
+</androidx.constraintlayout.widget.ConstraintLayout>
